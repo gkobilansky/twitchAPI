@@ -1,0 +1,67 @@
+body {background-color: antiquewhite;}
+
+h1 {
+    text-align: center;
+}
+
+body > div {
+    background-color: lightgray;}
+
+div { 
+    display: block; 
+    width: 60%; 
+    margin-left: 20%; 
+    margin-bottom: 30px; 
+    background: white; 
+    padding: 20px; 
+    border-radius: 2px; 
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.2); }
+
+div:last-of-type { margin-bottom: 100px; }
+
+span {
+    display: block;
+}
+
+.logo {
+    float: left;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+.bio {
+    font-size: .8rem;
+    font-style: italic;
+    color: dimgray;
+    margin: 1rem 0 1rem 0;
+    line-height: 1.2rem;
+}
+
+.active {
+    text-align: center;
+    padding: 2rem 0 2rem 0;
+}
+
+.active a {
+    background: rgba(0, 129, 182, 0.7);
+    border: 3px solid rgba(255,255,255,0);
+    padding: 2rem 3rem;
+    color: antiquewhite;
+    outline: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 1em;
+    display: inline-block;
+    letter-spacing: 0.3em;
+    transition: border-color 0.2s ease-in-out, background 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.active a:hover, a:focus, a:active {
+    color: black;
+    background: none;
+    border-color: lightblue;
+  } 
+    
+
